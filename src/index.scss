@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "@flaticon/flaticon-uicons/css/all/all";
+
+html,
+body {
+  font-family: "Figtree Variable", sans-serif;
+}
+textarea {
+ 
+  resize: none;
+ 
+}
+textarea:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: transparent !important;
+}
+
+/* This is for Chrome and Safari */
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+/* Firefox */
+textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+
+/* Internet Explorer 10+ */
+textarea:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+/* Edge */
+textarea:focus::placeholder {
+  color: transparent;
+}
